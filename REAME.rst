@@ -1,13 +1,16 @@
 pipenv
 =========
 
-A image of pipenv docker.
+A image for package example docker.
 
 - `docker入门 <https://docs.docker.com/get-started/>`_
 
 
-name: codeif/pipenv-example
+build
+-------
 
-docker build -t codeif/pipenv-example .
+.. code-block:: sh
+
+    docker build -t codeif/pipenv-example .
 
 
